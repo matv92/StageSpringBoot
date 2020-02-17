@@ -1,0 +1,3 @@
+.mvn
+/auth-service/*.cmd
+/auth-service/mvnw
