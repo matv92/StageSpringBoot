@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-@EnableEurekaClient 		// Enable eureka client.
+@EnableEurekaClient
 @EnableHystrixDashboard
 @EnableCircuitBreaker
 public class NapierServiceApplication {
