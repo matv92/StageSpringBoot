@@ -1,0 +1,5 @@
+com\farnetworks\gateway\security\JwtTokenAuthenticationFilter.class
+com\farnetworks\gateway\GatewayApplication.class
+com\farnetworks\gateway\security\JwtAuthenticationEntryPoint.class
+com\farnetworks\gateway\security\SecurityTokenConfig.class
+com\farnetworks\gateway\security\JwtConfig.class

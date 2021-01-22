@@ -1,0 +1,14 @@
+C:\dev\workspaces\Workspace_Tesi\SpringCloudArchitetture\auth-service\src\main\java\com\farnetworks\authservice\model\User.java
+C:\dev\workspaces\Workspace_Tesi\SpringCloudArchitetture\auth-service\src\main\java\com\farnetworks\authservice\config\WebMvcConfig.java
+C:\dev\workspaces\Workspace_Tesi\SpringCloudArchitetture\auth-service\src\main\java\com\farnetworks\authservice\model\BaseModel.java
+C:\dev\workspaces\Workspace_Tesi\SpringCloudArchitetture\auth-service\src\main\java\com\farnetworks\authservice\payload\JwtRequest.java
+C:\dev\workspaces\Workspace_Tesi\SpringCloudArchitetture\auth-service\src\main\java\com\farnetworks\authservice\security\JwtRequestFilter.java
+C:\dev\workspaces\Workspace_Tesi\SpringCloudArchitetture\auth-service\src\main\java\com\farnetworks\authservice\rest\AuthController.java
+C:\dev\workspaces\Workspace_Tesi\SpringCloudArchitetture\auth-service\src\main\java\com\farnetworks\authservice\security\JwtTokenProvider.java
+C:\dev\workspaces\Workspace_Tesi\SpringCloudArchitetture\auth-service\src\main\java\com\farnetworks\authservice\config\SecurityConfig.java
+C:\dev\workspaces\Workspace_Tesi\SpringCloudArchitetture\auth-service\src\main\java\com\farnetworks\authservice\repository\UserRepository.java
+C:\dev\workspaces\Workspace_Tesi\SpringCloudArchitetture\auth-service\src\main\java\com\farnetworks\authservice\AuthServiceApplication.java
+C:\dev\workspaces\Workspace_Tesi\SpringCloudArchitetture\auth-service\src\main\java\com\farnetworks\authservice\security\JwtAuthenticationEntryPoint.java
+C:\dev\workspaces\Workspace_Tesi\SpringCloudArchitetture\auth-service\src\main\java\com\farnetworks\authservice\payload\JwtResponse.java
+C:\dev\workspaces\Workspace_Tesi\SpringCloudArchitetture\auth-service\src\main\java\com\farnetworks\authservice\security\UserPrincipal.java
+C:\dev\workspaces\Workspace_Tesi\SpringCloudArchitetture\auth-service\src\main\java\com\farnetworks\authservice\service\CustomUserDetailsService.java

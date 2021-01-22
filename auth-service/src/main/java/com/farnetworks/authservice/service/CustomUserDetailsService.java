@@ -1,10 +1,14 @@
 package com.farnetworks.authservice.service;
 
 
+import java.util.ArrayList;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -21,8 +25,8 @@ public class CustomUserDetailsService implements UserDetailsService {
     @Autowired
     SecurityConfig securityConfig;
 
-//	@Autowired
-//	private BCryptPasswordEncoder bCryptPasswordEncoder;
+	@Autowired
+	private BCryptPasswordEncoder bCryptPasswordEncoder;
 
     @Override
     @Transactional
@@ -31,10 +35,11 @@ public class CustomUserDetailsService implements UserDetailsService {
                 .orElseThrow(() -> 
                         new UsernameNotFoundException("User not found with username : " + username)
         );
-        //bCryptPasswordEncoder.matches("password", user.getPassword());
-       // return new User(username, "$2a$10$slYQmyNdGzTn7ZLBXBChFOC9f6kFjAqPhccnP6DxlWXx2lPk1C3G6", new ArrayList<>());
-        return UserPrincipal.create(user);
-
+       
+       bCryptPasswordEncoder.matches("password", user.getPassword());
+       
+       return new User(username, "$2a$10$slYQmyNdGzTn7ZLBXBChFOC9f6kFjAqPhccnP6DxlWXx2lPk1C3G6", new ArrayList<>());
+        //return UserPrincipal.create(user);
     }
 
     // This method is used by JWTAuthenticationFilter

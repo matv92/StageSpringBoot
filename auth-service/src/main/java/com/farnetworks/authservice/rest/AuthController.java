@@ -55,6 +55,12 @@ public class AuthController {
 
 		return ResponseEntity.ok(new JwtResponse(token));
 	}
+	
+	@RequestMapping( value = "/authenticate/hello" , method = RequestMethod.GET)
+	public String firstPage() {
+		return "Authenticated Hello World";
+	}
+
 
 	private void authenticate(String username, String password) throws Exception {
 		try {

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: admin-service
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: mattiav
+Implementation-Vendor-Id: com.farnetworks
+Build-Jdk: 1.8.0_261
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/admin-service
+Created-By: Maven Integration for Eclipse
+
